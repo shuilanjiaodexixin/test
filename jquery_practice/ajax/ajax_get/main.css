@@ -1,0 +1,19 @@
+body{
+    margin: 50px;
+    padding: 0px;
+}
+
+#orders{
+    
+    padding: 0;
+    
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #dfdfdf;
+    text-align: left;
+
+}
