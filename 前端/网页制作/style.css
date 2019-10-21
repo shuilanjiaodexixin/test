@@ -1,0 +1,145 @@
+/*通用样式*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font: 14px/24px '宋体',Microsoft YaHei,Arial, Sans-serif;
+}
+.wp{
+	width: 960px;
+	margin: 0 auto;
+}
+.z{float: left;}
+.y{float: right;}
+.cl{clear: both;}
+.top span.mr_0{margin: 0;}
+.top{
+	width: 100%;
+	height: 24px;
+	background: #303030;
+	color: #d8d8d8;
+}
+.top span{
+	margin-right: 15px;
+}
+
+.top a{
+	color: #d8d8d8;
+	text-decoration:none;
+}
+
+.top a:hover{
+	color: #f60;
+	text-decoration:none;
+}
+
+/*logos*/
+.logos{
+	height: 59px;
+
+}
+/*搜索*/
+.sousuo{
+	width: 350px;
+	height: 41px;
+	margin-left: 59px;
+	margin-top: 8px;
+}
+.sousuo td{
+	height: 41px;
+}
+
+.s_z{
+	width: 6px;
+	background: url("images/s_z.jpg")no-repeat;
+}
+.s_c{
+	width: 240px;
+	background: url("images/s_c.jpg")repeat-x;
+}
+.s_y{
+	width: 78px;
+	background: url("images/s_r.jpg")no-repeat;
+}
+.s_c input{
+	height: 35px;
+	width: 245px;
+	border: none;
+	margin-top: 3px;
+}
+.s_y button{
+	width:78px ;
+	height:41px ;
+	background: none;
+	border: 0;
+	cursor: pointer;
+}
+.dianhua span{
+	height: 59px;
+	line-height: 59px;
+	font-size: 26px;
+	color: darkred;
+}
+
+/*导航*/
+.nav{
+	height: 39px;
+	width: 100%;
+	background: url("images/nav_bg.jpg")repeat;
+	margin-top: 20px;
+}
+.nav li{
+	list-style: none;
+	float: left;
+	line-height: 39px;
+	padding: 0 28px;
+
+}
+.nav li.a, .nav li:hover{
+	background: url("images/nav_hover.jpg")repeat-x;
+}
+.nav a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+/*center*/
+.tit{
+	padding-bottom: 10px;
+	border-bottom: 1px solid darkred;
+	position: relative;
+	margin-bottom: 10px;
+}
+.tit span{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.tit a{
+	color: darkred;
+	text-decoration: none;
+}
+.jianjie{
+	width: 540px;
+	height: 300px;
+	margin-right: 20px;
+}
+.jj_c img{
+	float: left;
+	margin: 0 20px 0 0;
+}
+.jj_c{
+	color: rgb(140,140,140);
+	text-indent: 24px;
+}
+.xinwen{
+	width: 400px;
+	height: 360px;
+}
+.chanpin{
+	width: 100%;
+	height: 300px;
+
+}
