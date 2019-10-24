@@ -1,12 +1,13 @@
 {
   "name": "webpack-study",
   "version": "1.0.0",
-  "description": "",
+  "description": "=V=",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"webpack --mode development",
-    "build": "webpack --mode production"
+    "dev2": "webpack-dev-server --open --port 3000 --contentBase src --hot",
+    "dev": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,25 @@
     "jquery": "^3.4.1"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bootstrap": "^3.4.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
   }
 }
